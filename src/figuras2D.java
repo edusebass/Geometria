@@ -2,14 +2,10 @@ public class figuras2D {
     int nlados;
     float lado;
 
+    //constructor
     public figuras2D(int nlados, float lado) {
         this.nlados = nlados;
         this.lado = lado;
-    }
-
-    //constructor
-    public figuras2D(int nlados) {
-        this.nlados = nlados;
     }
 
     //GETTES AND SETTERS
@@ -28,8 +24,14 @@ public class figuras2D {
     }
 
     //METODO
-    areaCuadrada() {
+   public void areaCuadrada(int lado) {
+        return this.lado * this.lado;
+
+    };
+
+    private float perimetroCuadrado() {
+        return 0
+    };
 
 
-    }
 }
