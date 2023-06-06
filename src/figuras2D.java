@@ -1,6 +1,6 @@
 public class figuras2D {
-    int nlados;
-    float lado;
+    private int nlados;
+    private float lado;
 
     //constructor
     public figuras2D(int nlados, float lado) {
@@ -30,7 +30,7 @@ public class figuras2D {
     };
 
     private float perimetroCuadrado() {
-        return 0
+        return 0;
     };
 
 
