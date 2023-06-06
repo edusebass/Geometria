@@ -14,5 +14,6 @@ public class figuras2D {
 
     areaCuadrada() {
 
+
     }
 }
